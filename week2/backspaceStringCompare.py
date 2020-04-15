@@ -9,7 +9,6 @@ class Solution:
                         stack.pop()
                 else:
                     stack.append(array[index])
-            print(stack)
             return stack
         if check_equal(S) == check_equal(T):
             return True
